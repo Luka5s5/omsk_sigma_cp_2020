@@ -58,7 +58,19 @@ struct p{
 ```
 
 
+## Tuple
 
+Tuple - это пара, только элементов может быть больше 2-х.
+
+## Stack, Queue, Deque
+
+
+
+## Set, unorderedset
+
+## Map, unorderedmap
+
+## Multiset, multimap
 ___
 
 ## [Sigma Omsk](https://vk.com/sigma_omsk) 2020
