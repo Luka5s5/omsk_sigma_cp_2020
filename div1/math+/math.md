@@ -73,12 +73,12 @@ for (int i = 2; i <= N; i++) {
 ### Асимптотика
 
 Теорема(б/д).
-f(n) = Sum\[p<=n\](1/p) = ln(ln(n)) + M + O(1/ln(n)),\
+f(n) = $\sum\limits_{p<=n, p-prime} \frac{1}{p} = ln(ln(n)) + M + O(\frac{1}{ln(n)})$,\
 M ~= 0.261
 
 Откуда наше решение имеет асимптотику:
 
-Sum\[p <= n, p - prime\](n / p) = O(n * ln(ln(n)))
+$\sum\limits_{p<=n, p-prime} \frac{n}{p} ~= O(n * ln(ln(n)))$
 
 На практике, это почти O(n). Даже при $n = 10^9$: $ln(ln(n)) ~= 3$. 
 
