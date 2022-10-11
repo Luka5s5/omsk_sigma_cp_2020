@@ -64,7 +64,6 @@ std::vector<bool> is_prime(N + 1, true);
 for (int i = 2; i <= N; i++) {
     if (is_prime[i]) {
         std::cout << i;
-    } else {
         for (int j = 2 * i; j <= N; j += i) {
             is_prime[j] = false;
         }
